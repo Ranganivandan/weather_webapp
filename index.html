@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<div class="mainbox">
+<div class="searchbar">
+    <input type="text" id="city" style="width: 23vw;" >
+    <i class="fa-solid fa-magnifying-glass" id="search" style="cursor: pointer;"></i>
+</div>
+<div class="image">
+    <img src="https://static.vecteezy.com/system/resources/previews/012/066/505/original/sunny-and-rainy-day-weather-forecast-icon-meteorological-sign-3d-render-png.png" id="changeimg" style=" width: 20vh;
+    height: 20vh;">
+</div>
+<div class="temprature" style="margin-top: 50px;font-size: 40px;display: flex;flex-direction: column;align-items: center;">
+  <h4 style="color: white;" id="cityname"></h4>
+    <div style="width: 100px;display: flex;justify-content: center;"><p id="celius" style="color: white;">0</p><div style="height: 40px;">&nbsp;<span style="color: white;">c</span></div></div>
+    <p id="subscript" style="color: white;">Broken clouds</p>
+    
+</div>
+<div class="other" style="width: 100%;background-color: blue;height: 70px;margin-top: 20px;display: flex;">
+<div id="humidity" style="width: 50%; text-align: center;color: white;font-size: 50px;"><span style="font-size: 20px;">humidity</span> <span id="percentagehumi">0%</span></div>
+<div id="windspeed" style="width: 50%; text-align: center;color: white;font-size: 30px;"><span style="font-size: 20px;">wind speed</span><span id="speedofair">0</span> Km/hr</div>
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+<script src="https://kit.fontawesome.com/cba4f0b217.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
